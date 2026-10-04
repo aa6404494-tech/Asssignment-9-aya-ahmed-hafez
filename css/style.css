@@ -1,0 +1,244 @@
+
+body {
+    background-color: #f8f9fc;
+    color: #171b27;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.brand-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #7728fd ;
+    color: white;
+    font-size: 24px;
+}
+
+.brand-name span {
+    color:#7728fd  ;
+}
+
+.brand-area p {
+    color: #555;
+}
+
+.nav-icon {
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+.profile {
+    width: 43px;
+    height: 43px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.add-contact-btn {
+    background-color:#7728fd ;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.add-contact-btn:hover {
+    background-color:#7628fddd ;
+    color: white;
+} 
+
+
+/* ================= STAT CARDS ================= */
+
+.stat-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .03);
+}
+
+.stat-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+}
+
+.total-icon {
+    background-color:#2070ff ;
+    color: white;
+}
+
+.favorite-icon {
+    background-color: #ffa500;
+    color: white;
+}
+
+.emergency-icon {
+    background-color:#f60e40 ;
+    color: white;
+}
+
+.stat-label {
+    color: #555d68;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+/* ================= SEARCH ================= */
+
+.search-box {
+    height: 52px;
+}
+
+.search-box input {
+    font-size: 14px;
+}
+
+.search-box input:focus {
+    box-shadow: none;
+}
+
+
+/* ================= CONTACT CARD ================= */
+
+.contact-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .03);
+    transition: .2s;
+}
+
+.contact-card:hover {
+    box-shadow: 0 5px 18px rgba(0, 0, 0, .07);
+}
+
+.contact-card-photo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.contact-action {
+    width: 35px;
+    height: 35px;
+}
+
+.call-btn {
+    background-color: #e7f8ee;
+    color: #159957;
+}
+
+.email-btn {
+    background-color: #e9efff;
+    color: #3155dc;
+}
+
+.edit-btn {
+    background-color: #fff4dc;
+    color: #db8c00;
+}
+
+.delete-btn {
+    background-color: #ffe9e9;
+    color: #d71927;
+}
+
+.star-btn {
+    background-color: #fff4dc;
+    color: #db8c00;
+}
+
+.contact-action:hover {
+    opacity: .8;
+}
+
+
+/* ================= SIDE CARDS ================= */
+
+.side-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .03);
+}
+
+.favorite-header {
+    background-color: #fff8df;
+}
+
+.emergency-header {
+    background-color: #fff0f1;
+}
+
+.side-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* ================= MODAL ================= */
+
+.contact-modal {
+    background-color: white;
+}
+
+.contact-photo {
+    width: 105px;
+    height: 105px;
+    background-color: #1685df;
+}
+
+.contact-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-control,
+.form-select {
+    border-color: #dfe3e8;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #3155dc;
+    box-shadow: 0 0 0 .15rem rgba(49, 85, 220, .1);
+}
+
+.save-btn {
+    background-color: #3155dc;
+    color: white;
+    border: none;
+}
+
+.save-btn:hover {
+    background-color: #2848c7;
+    color: white;
+}
+
+
+/* ================= CONTACT EMPTY ================= */
+ 
+.empty-state {
+    min-height: 350px;
+} 
+
+
+
+.empty-icon {
+    width: 65px;
+    height: 65px;
+
+    background-color: #f0f2f5;
+    color: #aaa;
+}
+
+
+/* ================= SIDE CONTACT ================= */
+
+.side-contact-photo {
+    width: 40px;
+    height: 40px;
+
+    object-fit: cover;
+}
